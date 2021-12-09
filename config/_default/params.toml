@@ -22,7 +22,7 @@ twitterCreator = "@nrgwloc"
 ## JSON-LD
 # schemaType = "Person"
 schemaType = "Organization"
-schemaName = "2022 수치상대론 및 중력파 겨울학교 / 계산천체물리 경진대회ㄴ"
+schemaName = "2022 수치상대론 및 중력파 겨울학교 / 계산천체물리 경진대회"
 schemaAuthor = "중력파 및 수치상대론 연구자 그룹"
 schemaAuthorTwitter = "https://twitter.com/nrgwloc"
 schemaAuthorLinkedIn = ""

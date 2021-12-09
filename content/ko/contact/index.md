@@ -7,6 +7,6 @@ draft: false
 images: []
 ---
 
-* 이메일: {{< email user="nrgw.loc" domain="gmail.com" >}}
+* 이메일: nrgw.loc at gmail.com
 * 트위터: [@nrgwloc](https://twitter.com/nrgwloc)
 * 인스타그램: [@nrgwloc](https://instagram.com/nrgwloc)
