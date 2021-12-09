@@ -6,8 +6,7 @@
     </div>
     <div class="col-lg-9 col-xl-8 text-center">
       <p class="lead">{{ .Params.lead | safeHTML }}</p>
-      <a class="btn btn-primary btn-lg px-4 mb-2" href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}prologue/introduction/" role="button">Get Started</a>
-      <p class="meta">Open-source MIT Licensed. <a href="https://github.com/h-enk/doks">GitHub v{{ $data := getJSON "/package.json" }}{{ $data.version }}</a></p>
+      <a class="btn btn-primary btn-lg px-4 mb-2" href="https://forms.gle/qJbrBPSfsZqcyyvD9" target="_blank" role="button">참가신청</a>
     </div>
   </div>
 </section>
@@ -18,30 +17,35 @@
   <div class="container">
     <div class="row justify-content-center text-center">
       <div class="col-lg-5">
-        <h2 class="h4">Security aware</h2>
-        <p>Get A+ scores on <a href="https://observatory.mozilla.org/analyze/doks-child-theme.netlify.app">Mozilla Observatory</a> out of the box. Easily change the default Security Headers to suit your needs.</p>
+        <h2 class="h4">참가대상 🧑‍🎓</h2>
+        <p>학부 및 대학원 재학생</p><p>(이학 및 공학 계열 박사학위 소지자는 출전 불가)</p>
       </div>
       <div class="col-lg-5">
-        <h2 class="h4">Fast by default ⚡️</h2>
-        <p>Get 100 scores on <a href="https://googlechrome.github.io/lighthouse/viewer/?gist=7731347bb8ce999eff7428a8e763b637">Google Lighthouse</a> by default. Doks removes unused css, prefetches links, and lazy loads images.</p>
+        <h2 class="h4">팀구성 🧑‍🤝‍🧑</h2>
+        <p>2인 이하</p>
       </div>
       <div class="col-lg-5">
-        <h2 class="h4">SEO-ready</h2>
-        <p>Use sensible defaults for structured data, open graph, and Twitter cards. Or easily change the SEO settings to your liking.</p>
+        <h2 class="h4">경진대회 수상 🏆</h2>
+        <p>대상 1팀: 30만원</p>
+        <p>최우수상 2팀: 20만원</p>
       </div>
     </div>
     <div class="row justify-content-center text-center">
       <div class="col-lg-5">
-        <h2 class="h4">Full text search</h2>
-        <p>Search your Doks site with FlexSearch. Easily customize index settings and search options to your liking.</p>
+        <h2 class="h4">숙박 및 식사 🛏️ 🍽️</h2>
+        <p>행사 기간 중 제공</p>
+        <p>월요일 저녁식사 - 금요일 아침식사</p>
       </div>
       <div class="col-lg-5">
-        <h2 class="h4">Page layouts</h2>
-        <p>Build pages with a landing page, blog, or documentation layout. Add custom sections and components to suit your needs.</p>
+        <h2 class="h4">COVID19 방역수칙 😷</h2>
+        <p>시작일 (2022년 1월 17일) 기준 백신 접종 완료 후 2주 경과한 사람만 참가 가능</p>
+        <p>현장 등록 시 백신 접종 완료 확인 (COOV 앱 혹은 접종 완료 증명서)</p>
       </div>
       <div class="col-lg-5">
-        <h2 class="h4">Dark mode</h2>
-        <p>Switch to a low-light UI with the click of a button. Change colors with variables to match your branding.</p>
+        <h2 class="h4">후원 🎁</h2>
+        <p><a href="http://www.kgwg.org" target="_blank">한국중력파연구협력단</a></p>
+        <p><a href="https://www.nims.re.kr" target="_blank">국가수리과학연구소</a></p>
+        <p><a href="https://www.kasi.re.kr" target="_blank">한국천문연구원</a></p>
       </div>
     </div>
   </div>

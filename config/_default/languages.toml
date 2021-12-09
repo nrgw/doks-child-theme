@@ -1,3 +1,10 @@
+[ko]
+  languageName = "Korean"
+  contentDir = "content/ko"
+  weight = 5
+  [ko.params]
+    languageISO = "KO"
+
 [en]
   languageName = "English"
   contentDir = "content/en"
