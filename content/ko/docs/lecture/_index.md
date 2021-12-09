@@ -1,5 +1,5 @@
 ---
-title: "일반안내"
+title: "강의"
 description: ""
 lead: ""
 date: 2021-12-10T05:56:42+09:00

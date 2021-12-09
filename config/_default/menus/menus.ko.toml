@@ -1,31 +1,38 @@
 [[docs]]
-  name = "일반"
+  name = "일반안내"
   weight = 10
   identifier = "general"
   url = "/docs/general/"
 
 [[docs]]
-  name = "실습 환경"
+  name = "강의"
   weight = 20
+  identifier = "lecture"
+  url = "/docs/lecture/"
+
+
+[[docs]]
+  name = "실습환경"
+  weight = 30
   identifier = "aws"
   url = "/docs/aws/"
 
 
-[[docs]]
-  name = "Prologue"
-  weight = 50
-  identifier = "prologue"
-  url = "/docs/prologue/"
+# [[docs]]
+#   name = "Prologue"
+#   weight = 50
+#   identifier = "prologue"
+#   url = "/docs/prologue/"
 
 [[docs]]
-  name = "Help"
+  name = "도움"
   weight = 60
   identifier = "help"
   url = "/docs/help/"
 
 [[main]]
   name = "행사안내"
-  url = "/docs/prologue/introduction/"
+  url = "/docs/general/program/"
 # url = "/docs/1.0/prologue/introduction/"
   weight = 10
 
