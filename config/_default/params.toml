@@ -3,40 +3,40 @@
 ## Homepage
 title = "겨울학교"
 titleSeparator = "-"
-titleAddition = "Modern Documentation Theme"
-description = "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
+titleAddition = "2022 수치상대론 및 중력파 겨울학교 / 계산천체물리 경진대회"
+description = "수치상대론과 중력파에 대한 심화 강의 및 실습을 위한 교육행사입니다."
 
 ## Documentation
 # docsVersion = "0.3"
 
 ## Open Graph
 images = ["doks.png"]
-ogLocale = "en_US"
-domainTLD = "doks.netlify.app"
-titleHome = "Doks Theme"
+ogLocale = "ko_KR"
+domainTLD = "school.gw.nr.re.kr"
+titleHome = "2022 수치상대론 및 중력파 겨울학교 / 계산천체물리 경진대회"
 
 ## Twitter Cards
-twitterSite = "@getdoks"
-twitterCreator = "@henkverlinde"
+twitterSite = "@nrgwloc"
+twitterCreator = "@nrgwloc"
 
 ## JSON-LD
 # schemaType = "Person"
 schemaType = "Organization"
-schemaName = "Doks"
-schemaAuthor = "Henk Verlinde"
-schemaAuthorTwitter = "https://twitter.com/henkverlinde"
-schemaAuthorLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
-schemaAuthorGitHub = "https://github.com/h-enk"
-schemaLocale = "en-US"
+schemaName = "2022 수치상대론 및 중력파 겨울학교 / 계산천체물리 경진대회ㄴ"
+schemaAuthor = "중력파 및 수치상대론 연구자 그룹"
+schemaAuthorTwitter = "https://twitter.com/nrgwloc"
+schemaAuthorLinkedIn = ""
+schemaAuthorGitHub = "https://github.com/nrgw"
+schemaLocale = "ko-KR"
 schemaLogo = "logo-doks.png"
 schemaLogoWidth = 512
 schemaLogoHeight = 512
 schemaImage = "doks.png"
 schemaImageWidth = 1280
 schemaImageHeight = 640
-schemaTwitter = "https://twitter.com/getdoks"
+schemaTwitter = "https://twitter.com/nrgwloc"
 schemaLinkedIn = ""
-schemaGitHub = "https://github.com/h-enk/doks"
+schemaGitHub = "https://github.com/nrgw"
 schemaSection = "blog"
 
 ## Sitelinks Search Box
@@ -57,7 +57,7 @@ smallLimit = "300"
 footer = "Copyright © 수치상대론 및 중력파 겨울학교 조직위원회 <br> 이메일의 무단수집을 거부합니다."
 
 # Feed
-copyRight = "Copyright (c) 2020-2021 Henk Verlinde"
+copyRight = "Copyright © 수치상대론 및 중력파 겨울학교 조직위원회ㄴ"
 
 # Alert
 alert = false
@@ -66,7 +66,7 @@ alertDismissable = true
 alertText = "Introducing the Doks child theme, several DX + UX updates, and more! <a class=\"alert-link stretched-link\" href=\"https://getdoks.org/blog/doks-v0.2/\">Check out Doks v0.2</a>"
 
 # Edit Page
-docsRepo = "https://github.com/h-enk/doks"
+docsRepo = "https://github.com/nrgw/doks-child-theme"
 docsRepoBranch = "master"
 editPage = false
 
