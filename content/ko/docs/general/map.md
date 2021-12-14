@@ -10,8 +10,10 @@ menu:
   docs:
     parent: "general"
 weight: 10
-toc: true
+toc: false
 ---
+
+## 약도
 
 <img src='../map.jpg'>
 
