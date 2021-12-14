@@ -12,10 +12,10 @@
 
 
 [[docs]]
-  name = "실습환경"
+  name = "경진대회"
   weight = 30
-  identifier = "aws"
-  url = "/docs/aws/"
+  identifier = "competition"
+  url = "/docs/competition/"
 
 
 # [[docs]]

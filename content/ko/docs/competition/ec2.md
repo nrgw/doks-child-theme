@@ -8,7 +8,7 @@ draft: false
 images: []
 menu: 
   docs:
-    parent: "aws"
-weight: 30
+    parent: "competition"
+weight: 31
 toc: true
 ---
