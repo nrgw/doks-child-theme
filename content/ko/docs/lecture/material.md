@@ -10,7 +10,7 @@ menu:
   docs:
     parent: "lecture"
 weight: 21
-toc: true
+toc: false
 ---
 
 * AWS EC2 사용방법 및 실습: 

@@ -10,5 +10,8 @@ menu:
   docs:
     parent: "competition"
 weight: 31
-toc: true
+toc: false
 ---
+
+
+추후 업데이트 예정.

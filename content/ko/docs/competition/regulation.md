@@ -10,7 +10,7 @@ menu:
   docs:
     parent: "competition"
 weight: 30
-toc: true
+toc: false
 ---
 
 * 참가자격

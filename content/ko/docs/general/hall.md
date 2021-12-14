@@ -10,7 +10,7 @@ menu:
   docs:
     parent: "general"
 weight: 11
-toc: true
+toc: false
 ---
 
 <img src='../map_interior.gif'>

@@ -10,7 +10,7 @@ menu:
   docs:
     parent: "general"
 weight: 15
-toc: true
+toc: false
 ---
 
 * 방역패스 조건을 만족하는 사람만 참가 가능

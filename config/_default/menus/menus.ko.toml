@@ -1,5 +1,5 @@
 [[docs]]
-  name = "일반안내"
+  name = "행사안내"
   weight = 10
   identifier = "general"
   url = "/docs/general/"
@@ -17,27 +17,14 @@
   identifier = "competition"
   url = "/docs/competition/"
 
-
-# [[docs]]
-#   name = "Prologue"
-#   weight = 50
-#   identifier = "prologue"
-#   url = "/docs/prologue/"
-
-# [[docs]]
-#   name = "도움"
-#   weight = 60
-#   identifier = "help"
-#   url = "/docs/help/"
+[[main]]
+  name = "공지사항"
+  url = "/blog/"
+  weight = 10
 
 [[main]]
   name = "행사안내"
   url = "/docs/general/program/"
-  weight = 10
-
-[[main]]
-  name = "공지사항"
-  url = "/blog/"
   weight = 20
 
 [[main]]

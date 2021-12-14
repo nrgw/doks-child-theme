@@ -10,7 +10,7 @@ menu:
   docs:
     parent: "general"
 weight: 14
-toc: true
+toc: false
 ---
 
 추후 업데이트 예정
