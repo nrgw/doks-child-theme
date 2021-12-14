@@ -41,14 +41,25 @@
   weight = 20
 
 [[main]]
+  name = "강의"
+  url = "/docs/lecture/lec_intro/"
+  weight = 30
+
+[[main]]
+  name = "경진대회"
+  url = "/docs/competition/regulation/"
+  weight = 40
+
+
+[[main]]
   name = "관련사이트"
   url = "/sites/"
-  weight = 30
+  weight = 50
 
 [[main]]
   name = "문의"
   url = "/contact/"
-  weight = 40
+  weight = 60
 
 [[social]]
   name = "Twitter"
