@@ -15,7 +15,10 @@ toc: true
 
 ## AWS EC2 사용방법 및 실습
 
-* 연사: 김환선 (NIMS)
+* 연사: 김환선 (NIMS) / 박찬 (IBS)
+
+대용량 컴퓨팅 인프라를 구축하고 운영하기 위해서는 비용 뿐만 아니라 많은 시간과 노력이 필요하다. IaaS(Infrastructure as a Service)는 컴퓨팅 인프라(CPU, 메모리, 디스크, 네트워크 등)를 요구에 맞게 실시간으로 구축할 있는 서비스로서 계산천체물리 연구에 필요한 대용량 컴퓨팅 환경을 손쉽게 구축할 수 있게 해준다. AWS EC2는 가장 널리 사용되는 IaaS로서 겨울학교 및 경진대회를 위한 실습 환경으로 제공될 예정이다. 이를 위해 AWS EC2의 대한 개념 이해 및 실습을 위한 시간을 가질 것이다.
+
 
 ## 계산천체물리 강의 1
 
@@ -42,6 +45,8 @@ toc: true
 ## 수치상대론 및 블랙홀 쌍성
 
 * 연사: 배영복 (IBS)
+
+Blackhole binaries are the main targets of current gravitational wave detectors. Some fraction of them can be formed dynamically in star clusters. In this talk, I'll introduce the mechanism of their dynamical formations and several approaches for studying them. 
 
 ## 우주론 시뮬레이션
 
