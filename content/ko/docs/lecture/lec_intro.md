@@ -48,6 +48,8 @@ toc: true
 
 Blackhole binaries are the main targets of current gravitational wave detectors. Some fraction of them can be formed dynamically in star clusters. In this talk, I'll introduce the mechanism of their dynamical formations and several approaches for studying them. 
 
-## 우주론 시뮬레이션
+## 우주론 수치모의실험
 
 * 연사: 김용휘 (KIAS)
+
+현대 표준 우주론은 우리 우주가 기하학적으로 평탄하며 우주 에너지 밀도 중 약 70%는 암흑 에너지, 25%는 암흑 물질, 5%는 일반 물질이라 이야기한다. 이 비율은 Ia형 초신성 관측을 통한 먼 거리 은하들의 이동 속도 측정, 우주 배경 복사의 온도 요동과 분포 측정, 중입자 음향 진동 등의 관측을 이용하여 알아내지만 각 관측의 한계로, 예측된 우주론 물리량의 범위가 다르고 관측값 간에도 오차 범위 이상의 차이를 보인다. 이러한 문제가 표준 우주론의 근본을 뒤흔들지는 않지만, 관측과 이론적 예측의 차이를 좁히는 노력은 반드시 필요하다. 이러한 노력의 하나로 많은 이론 천문학자들은 우주 극초기 밀도 요동으로부터 현 우주까지 진화해 오는 과정을 수치해석 기법을 적용한 우주론 수치모의실험을 수행하여 그 차이를 좁히고자 하였다. 이번 강의에서는 우주론 N-체 및 유체역학 수치모의실험의 과거와 현재, 그리고 앞으로 나아가야 할 방향에 대해 이야기하고자 한다.
