@@ -57,7 +57,7 @@ smallLimit = "300"
 footer = "Copyright © 수치상대론 및 중력파 겨울학교 조직위원회 <br> 이메일의 무단수집을 거부합니다."
 
 # Feed
-copyRight = "Copyright © 수치상대론 및 중력파 겨울학교 조직위원회ㄴ"
+copyRight = "Copyright © 수치상대론 및 중력파 겨울학교 조직위원회"
 
 # Alert
 alert = false
