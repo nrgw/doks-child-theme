@@ -13,7 +13,6 @@ contributors: ["박찬"]
 
 * 장소: 서울가든호텔 (서울 마포구 마포대로 58)
 * 숙박 형태: 2인 1실 트윈
-* 성별조사: [https://forms.gle/dhH2QG36NbmkFZTx5](https://forms.gle/dhH2QG36NbmkFZTx5)
 
 숙박이 2인 1실로 변경됨에 따라 참가자들의 성별을 조사할 예정이오니 1월 7일(금) 까지 답변을 완료해 주시기 바랍니다.
 
