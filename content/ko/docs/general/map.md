@@ -19,7 +19,7 @@ toc: false
 * 전화번호: 02-710-7111
 * 홈페이지: [https://www.seoulgarden.co.kr/](https://www.seoulgarden.co.kr/)
 
-## 약도
+## 지도
 
 <img src='../map.png'>
 
