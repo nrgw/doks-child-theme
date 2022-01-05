@@ -39,9 +39,10 @@ $ sudo apt install gnuplot
 ## Anaconda
 ```bash
 $ wget https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh
-$ bash Anaconda3-2021.11-Linux-x86_64.sh
+$ bash Anaconda3-2021.11-Linux-x86_64.sh -b
 $ rm Anaconda3-2021.11-Linux-x86_64.sh
-$ source ~/.bashrc
+$ eval "$(~/anaconda3/bin/conda shell.bash hook)"
+$ conda init
 $ conda update --all
 ```
 
