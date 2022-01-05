@@ -48,20 +48,20 @@ $ conda update --all
 
 ## GWpy
 ```bash
-$ conda install -c conda-forge gwpy
+$ conda install -y -c conda-forge gwpy
 ```
 
 ## LALSuite
 ```bash
-$ conda install -c conda-forge lalsuite
+$ conda install -y -c conda-forge lalsuite
 ```
 
 ## PyCBC
 ```bash
-$ conda install -c conda-forge pycbc
+$ conda install -y -c conda-forge pycbc
 ```
 
 ## Bilby
 ```bash
-$ conda install -c conda-forge bilby
+$ conda install -y -c conda-forge bilby
 ```
