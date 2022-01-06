@@ -24,7 +24,7 @@
 
 [[main]]
   name = "행사안내"
-  url = "/docs/general/program/"
+  url = "/docs/general/map/"
   weight = 20
 
 [[main]]
