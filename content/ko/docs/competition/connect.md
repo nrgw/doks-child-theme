@@ -39,19 +39,19 @@ Xming을 다음 사이트에서 다운로드 받는다.
 ssh key 파일이 다운로드 폴더에 있다고 가정하고 해당 디렉토리로 이동한다.
 
 ```shelll
-cd Downloads
+> cd Downloads
 ```
 
 X11 Forward를 위한 변수 설정을 한다.
 
 ```shell
-set DISPLAY=localhost:0.0
+> set DISPLAY=localhost:0.0
 ```
 
 다음과 같이 ssh 접속을 한다.
 
 ```shell
-ssh -Y -i [ssh key 파일] ubuntu@[접속 ip]
+> ssh -Y -i [ssh key 파일] ubuntu@[접속 ip]
 ```
 
 ## Mac OS
