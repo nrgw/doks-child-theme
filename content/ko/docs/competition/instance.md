@@ -10,7 +10,7 @@ menu:
   docs:
     parent: "competition"
 weight: 33
-toc: false
+toc: true
 ---
 
 ## System

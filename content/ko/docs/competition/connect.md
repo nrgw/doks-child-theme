@@ -20,7 +20,7 @@ toc: true
 
 위의 정보들은 슬랙을 통해 개별 전달될 예정입니다.
 
-## Windows
+## 윈도우즈 사용자
 
 ### Xming 설치
 
@@ -30,13 +30,15 @@ Xming을 다음 사이트에서 다운로드 받는다.
 
 설치파일을 실행한뒤 계속 `Next >` 를 누르면 된다.
 
-### ssh 접속
+### 명령 프롬프트 실행
 
 `Windows Key + R` 키를 눌러 `cmd` 를 실행시킨다.
 
 <img src="../cmd.png">
 
-ssh key 파일이 다운로드 폴더에 있다고 가정하고 해당 디렉토리로 이동한다.
+### ssh 접속
+
+다운로드 받은 ssh key 파일이 있는 디렉토리로 이동한다. (여기서는 다운로드 폴더에 있다고 가정한다.)
 
 ```shelll
 > cd Downloads
@@ -51,13 +53,94 @@ X11 Forward를 위한 변수 설정을 한다.
 다음과 같이 ssh 접속을 한다.
 
 ```shell
-> ssh -Y -i [ssh key 파일] ubuntu@[접속 ip]
+> ssh -Y -i [ssh key 파일이름] ubuntu@[접속 ip]
 ```
 
-## Mac OS
+## 맥 OS 사용자
 
 ### XQuartz 설치
 
+XQuartz를 다음 사이트에서 다운로드 받는다.
 
+* [https://www.xquartz.org/](https://www.xquartz.org/)
 
-## Linux
+설치파일을 실행한뒤 "계속", "동의", "설치" 등을 누른다.
+
+### 터미널 실행
+
+`Command + Space` 키를 눌러 `터미널.app` 을 실행한다.
+
+<img src="../terminal.png">
+
+### ssh 접속
+
+다운로드 받은 ssh key 파일이 있는 디렉토리로 이동한다. (여기서는 다운로드 폴더에 있다고 가정한다.)
+
+```shell
+% cd ~/Downloads/
+```
+
+ssh key 파일의 접근 권한을 제한해준다.
+
+```shell
+% chmod 600 [ssh key 파일이름]
+```
+
+다음과 같이 ssh 접속을 한다.
+
+```shell
+% ssh -Y -i [ssh key 파일이름] ubuntu@[접속 ip]
+```
+
+## 리눅스 사용자
+
+우분투를 기준으로 설명합니다. 대부분의 리눅스 데스크톱은 X11을 기반으로 구동되기 때문에 별도의 프로그램 설치가 필요 없습니다.
+
+### 터미널 실행
+
+`Ctrl + Alt + T` 키를 눌러 `터미널` 을 실행한다.
+
+### ssh 접속
+
+다운로드 받은 ssh key 파일이 있는 디렉토리로 이동한다. (여기서는 다운로드 폴더에 있다고 가정한다.)
+
+```shell
+$ cd ~/Downloads/
+```
+
+ssh key 파일의 접근 권한을 제한해준다.
+
+```shell
+$ chmod 600 [ssh key 파일이름]
+```
+
+다음과 같이 ssh 접속을 한다.
+
+```shell
+$ ssh -Y -i [ssh key 파일이름] ubuntu@[접속 ip]
+```
+
+## 팁
+
+### ssh config 설정
+
+맥 OS나 리눅스의 경우 ssh config를 사용하면 매번 ssh를 접속할 때마다 긴 명령을 치는 수고를 덜어줄 수 있다. ssh key 파일을 일단 `~/.ssh/`에 옮긴다.
+
+```shell
+% cd ~/Downloads/
+% mv [ssh key 파일이름] ~/.ssh/
+```
+
+ssh config 파일은 `~/.ssh/config`에 위치하고 있다. 이를 텍스트 에디터로 열어 아래 설정을 추가한다.
+
+```shell
+Host aws
+  HostName [접속 ip]
+  User ubuntu
+  IdentityFile ~/.ssh/[ssh key 파일이름]
+  ForwardX11Trusted yes
+```
+
+### Visual Studio Code
+
+리눅스 에디터가 익숙하지 않은 경우 [Visual Studio Code](https://code.visualstudio.com/)를 사용하면 편리하다. 확장 프로그램으로 [Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh) 를 사용하면 원격 파일들을 쉽게 불러와 열 수 있다.
