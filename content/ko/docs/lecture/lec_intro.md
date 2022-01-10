@@ -56,12 +56,12 @@ toc: true
 
 이 강의에서는 중력파 데이터 분석과 그 데이터를 활용한 중력파 과학연구에 다양한 기계학습 알고리즘들이 활용되어 온 사례들을 통해 해당 연구 분야의 동향을 살펴보고, 본 연사의 연구 사례들을 간단히 소개한다.
 
-## 수치상대론 및 블랙홀 쌍성
+## 성단 역학 및 블랙홀 쌍성의 형성
 
 * 연사: 배영복 (IBS)
 * 일정: 1월 19일 (수) 오전 11시 - 오후 12시
 
-Blackhole binaries are the main targets of current gravitational wave detectors. Some fraction of them can be formed dynamically in star clusters. In this talk, I'll introduce the mechanism of their dynamical formations and several approaches for studying them. 
+중력파 방출의 주요 천체인 블랙홀 쌍성이 성단 안에서 역학적인 과정을 통하여 형성되는 과정에 대하여 살펴본다. 그리고 이와 관련된 수치 실험들(N-body, 수치상대론 등)과 이를 이용한 실제 연구 사례들을 간략히 소개한다.
 
 ## 우주론 수치모의실험
 
