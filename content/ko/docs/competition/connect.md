@@ -141,6 +141,12 @@ Host aws
   ForwardX11Trusted yes
 ```
 
+설정을 한 뒤에는 ssh를 접속할 때 다음과 같은 명령을 사용하면 된다.
+
+```shell
+% ssh aws
+```
+
 ### Visual Studio Code
 
 리눅스 에디터가 익숙하지 않은 경우 [Visual Studio Code](https://code.visualstudio.com/)를 사용하면 편리하다. 확장 프로그램으로 [Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh) 를 사용하면 원격 파일들을 쉽게 불러와 열 수 있다.
