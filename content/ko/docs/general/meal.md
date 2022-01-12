@@ -15,11 +15,11 @@ toc: false
 
 | 날짜 | 아침 | 점심  | 저녁 |
 |:---:|:---:|:---:|:---:|
-|1월 17일(월)|        -|        -|행사장|
-|1월 18일(화)|La Stella|La Stella|행사장|
-|1월 19일(수)|La Stella|La Stella|행사장|
-|1월 20일(목)|La Stella|La Stella|행사장|
-|1월 21일(금)|La Stella|        -|  -|
+|1월 17일(월)|           -|            -|2층 행사장|
+|1월 18일(화)|1층 La Stella|1층 La Stella|2층 행사장|
+|1월 19일(수)|1층 La Stella|1층 La Stella|2층 행사장|
+|1월 20일(목)|1층 La Stella|1층 La Stella|2층 행사장|
+|1월 21일(금)|1층 La Stella|           -|       -|
 
 * 아침 및 점심 식사장소: 서울가든호텔 1층 La Stella
 * 저녁 식사장소: 서울가든호텔 2층 행사장
