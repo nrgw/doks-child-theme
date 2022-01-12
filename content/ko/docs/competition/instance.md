@@ -65,3 +65,9 @@ $ conda install -y -c conda-forge pycbc
 ```bash
 $ conda install -y -c conda-forge bilby
 ```
+
+### Nestle
+
+```bash
+$ conda install -y -c conda-forge nestle
+```
