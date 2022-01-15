@@ -31,6 +31,11 @@ $ sudo reboot
 $ sudo apt install build-essential gfortran
 ```
 
+## OpenMPI
+```bash
+$ sudo apt install openmpi-bin
+```
+
 ## GNU Plot
 ```bash
 $ sudo apt install gnuplot
