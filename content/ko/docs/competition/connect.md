@@ -138,7 +138,7 @@ Host 2022cca
   HostName [접속 ip]
   User ubuntu
   IdentityFile ~/.ssh/[ssh key 파일이름]
-  ForwardX11Trusted yes
+  ForwardX11 yes
 ```
 
 설정을 한 뒤에는 ssh를 접속할 때 다음과 같은 명령을 사용하면 된다.
