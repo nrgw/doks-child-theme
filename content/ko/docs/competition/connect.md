@@ -124,14 +124,37 @@ $ ssh -Y -i [ssh key 파일이름] ubuntu@[접속 ip]
 
 ### ssh config 설정
 
-ssh config 파일을 이용하면 매번 ssh를 접속할 때마다 긴 명령을 치는 수고를 덜어줄 수 있다. ssh key 파일을 일단 `~/.ssh/`에 옮긴다. (윈도우는 파일 탐색기를 이용해 `$HOME\.ssh\`에 옮긴다.)
+ssh config 파일을 이용하면 매번 ssh를 접속할 때마다 긴 명령을 치는 수고를 덜어줄 수 있다. ssh config 파일은 `~/.ssh/config`에 위치하고 있다.
+
+#### 윈도우
+
+윈도우는 파일 탐색기를 이용하여 ssh key 파일을 `$HOME\.ssh\`에 옮긴다. 해당 디렉토리에 `config` 파일을 생성하여 아래 내용을 추가한다. (txt 확장자가 붙지 않도록 주의.)
+
+```shell
+Host 2022cca
+  HostName [접속 ip]
+  User ubuntu
+  IdentityFile ~/.ssh/[ssh key 파일이름]
+  ForwardX11 yes
+  ForwardX11Trusted yes
+```
+설정을 한 뒤에는 ssh를 접속할 때 다음과 같은 명령을 사용하면 된다.
+
+```shell
+> set DISPLAY=localhost:0.0
+> ssh 2022cca
+```
+
+#### 맥 OS & 리눅스
+
+ssh key 파일을 일단 `~/.ssh/`에 옮긴다.
 
 ```shell
 % cd ~/Downloads/
 % mv [ssh key 파일이름] ~/.ssh/
 ```
 
-ssh config 파일은 `~/.ssh/config`에 위치하고 있다. (윈도우는 `$HOME\.ssh\`) 이를 텍스트 에디터로 열어 아래 설정을 추가한다.
+ `~/.ssh/config`를 텍스트 에디터로 열어 아래 설정을 추가한다.
 
 ```shell
 Host 2022cca
