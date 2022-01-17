@@ -124,17 +124,17 @@ $ ssh -Y -i [ssh key 파일이름] ubuntu@[접속 ip]
 
 ### ssh config 설정
 
-맥 OS나 리눅스의 경우 ssh config를 사용하면 매번 ssh를 접속할 때마다 긴 명령을 치는 수고를 덜어줄 수 있다. ssh key 파일을 일단 `~/.ssh/`에 옮긴다.
+ssh config 파일을 이용하면 매번 ssh를 접속할 때마다 긴 명령을 치는 수고를 덜어줄 수 있다. ssh key 파일을 일단 `~/.ssh/`에 옮긴다. (윈도우는 파일 탐색기를 이용해 `$HOME\.ssh\`에 옮긴다.)
 
 ```shell
 % cd ~/Downloads/
 % mv [ssh key 파일이름] ~/.ssh/
 ```
 
-ssh config 파일은 `~/.ssh/config`에 위치하고 있다. 이를 텍스트 에디터로 열어 아래 설정을 추가한다.
+ssh config 파일은 `~/.ssh/config`에 위치하고 있다. (윈도우는 `$HOME\.ssh\`) 이를 텍스트 에디터로 열어 아래 설정을 추가한다.
 
 ```shell
-Host aws
+Host 2022cca
   HostName [접속 ip]
   User ubuntu
   IdentityFile ~/.ssh/[ssh key 파일이름]
@@ -144,9 +144,5 @@ Host aws
 설정을 한 뒤에는 ssh를 접속할 때 다음과 같은 명령을 사용하면 된다.
 
 ```shell
-% ssh aws
+% ssh 2022cca
 ```
-
-### Visual Studio Code
-
-리눅스 에디터가 익숙하지 않은 경우 [Visual Studio Code](https://code.visualstudio.com/)를 사용하면 편리하다. 확장 프로그램으로 [Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh) 를 사용하면 원격 파일들을 쉽게 불러와 열 수 있다.
