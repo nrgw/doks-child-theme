@@ -18,8 +18,6 @@ toc: true
 
 IaaS는 OS가 구동되는 물리적 하드웨어를 웹 서비스 형태로 제공한다. 대표적으로 Amazon Web Service (AWS), Microsoft Azure, Google Cloud 같은 서비스들이 있다.
 
-<img src="../iaas.png">
-
 ## AWS EC2
 
 * EC: Elastic Computing
