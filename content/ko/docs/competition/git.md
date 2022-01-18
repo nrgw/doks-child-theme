@@ -4,12 +4,12 @@ description: ""
 lead: "답안 제출은 git을 사용합니다. git에 대한 매뉴얼입니다."
 date: 2022-01-16T15:26:07Z
 lastmod: 2022-01-16T15:26:07Z
-draft: flase
+draft: false
 images: []
 menu: 
   docs:
     parent: "competition"
-weight: 34
+weight: 35
 toc: true
 ---
 
