@@ -21,4 +21,4 @@ toc: false
 |1월 18일(화)|2층 Grand Ballroom A|09:00 - 21:30|
 |1월 19일(수)|2층 Grand Ballroom A|09:00 - 21:30|
 |1월 20일(목)|2층 Grand Ballroom A|09:00 - 21:30|
-|1월 21일(금)|2층 Grand Ballroom A|09:00 - 12:00|
+|1월 21일(금)|2층 Grand Ballroom C|09:00 - 12:00|
