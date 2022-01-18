@@ -17,7 +17,7 @@ toc: false
 * 계산천체물리 강의 1: [강의 슬라이드](/docs/lecture/materials/gwda-problem-ymkim.pdf)
 * 계산천체물리 강의 2: [강의 슬라이드](/docs/lecture/materials/cca-problem.pdf)
 * 중력파 데이터 분석: [강의 슬라이드](/docs/lecture/materials/gw_pe_2022NR_Winter_School_v2.pdf)
-* 중성자별의 내부 구조 및 상태방정식: [강의 슬라이드](/docs/lecture/materials/NRGW-School.pdf) [Workout Problem](/docs/lecture/materials/NPS_CHLee_Workout.pdf)
+* 중성자별의 내부 구조 및 상태방정식: [강의 슬라이드](/docs/lecture/materials/NRGW-School.pdf) / [Workout Problem](/docs/lecture/materials/NPS_CHLee_Workout.pdf)
 * 기계학습을 이용한 중력파 데이터 분석: 
 * 성단 역학 및 블랙홀 쌍성의 형성: 
 * 우주론 수치모의실험: 
