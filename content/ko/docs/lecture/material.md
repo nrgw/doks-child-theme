@@ -20,4 +20,4 @@ toc: false
 * 중성자별의 내부 구조 및 상태방정식: [강의 슬라이드](/docs/lecture/materials/NRGW-School.pdf) / [Workout Problem](/docs/lecture/materials/NPS_CHLee_Workout.pdf)
 * 기계학습을 이용한 중력파 데이터 분석: [강의 슬라이드](/docs/lecture/materials/MLinGWs_kkim.pdf)
 * 성단 역학 및 블랙홀 쌍성의 형성: 
-* 우주론 수치모의실험: 
+* 우주론 수치모의실험: [강의 슬라이드](/docs/lecture/materials/Lecture_Cosmology_KYH.pdf)
