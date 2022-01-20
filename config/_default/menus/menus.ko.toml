@@ -39,6 +39,11 @@
 
 
 [[main]]
+  name = "사진"
+  url = "/blog/사진/"
+  weight = 45
+
+[[main]]
   name = "관련사이트"
   url = "/sites/"
   weight = 50
