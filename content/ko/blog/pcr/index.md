@@ -7,7 +7,7 @@ lastmod: 2021-12-15T21:51:40+09:00
 draft: false
 weight: 50
 images: []
-contributors: []
+contributors: ["박찬"]
 ---
 
 자세한 내용은 [방역지침]({{< ref "quarantine" >}})을 참조하시기 바랍니다.

@@ -1,13 +1,13 @@
 ---
 title: "사진"
 description: ""
-lead: "행사 사진을 업로드합니다."
+lead: "겨울학교 현장의 모습입니다."
 date: 2022-01-20T05:34:18Z
 lastmod: 2022-01-20T05:34:18Z
 draft: false
 weight: 50
 images: []
-contributors: []
+contributors: ["박찬"]
 ---
 
 <img src='images\P1030426_batch.jpg'>
