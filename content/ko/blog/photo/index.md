@@ -58,7 +58,7 @@ contributors: ["박찬"]
 <img src='images\P1030477_batch.jpg'>
 <img src='images\P1030479_batch.jpg'>
 <img src='images\P1030480_batch.jpg'>
-<img src='images\P1030496_batch.jpg'>
+<!--img src='images\P1030496_batch.jpg'-->
 <img src='images\P1030499_batch.jpg'>
 <img src='images\P1030501_batch.jpg'>
 <img src='images\P1030502_batch.jpg'>
