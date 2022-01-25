@@ -29,11 +29,11 @@
   publish = "public"
   autoLaunch = false
 
-[[headers]]
-  for = "/*"
-  [headers.values]
-	cache-control = '''
-	max-age=0,
-	no-cache,
-	no-store,
-	must-revalidate'''
+# [[headers]]
+#   for = "/*"
+#   [headers.values]
+# 	cache-control = '''
+# 	max-age=0,
+# 	no-cache,
+# 	no-store,
+# 	must-revalidate'''
