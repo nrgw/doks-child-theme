@@ -1,4 +1,5 @@
 # baseurl = "https://school.gw.nr.re.kr/2022/winter"
+baseurl = ""
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
