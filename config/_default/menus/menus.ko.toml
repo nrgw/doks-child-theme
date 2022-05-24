@@ -2,62 +2,62 @@
   name = "행사안내"
   weight = 10
   identifier = "general"
-  url = "/docs/general/"
+  url = "docs/general/"
 
 [[docs]]
   name = "강의"
   weight = 20
   identifier = "lecture"
-  url = "/docs/lecture/"
+  url = "docs/lecture/"
 
 
 [[docs]]
   name = "경진대회"
   weight = 30
   identifier = "competition"
-  url = "/docs/competition/"
+  url = "docs/competition/"
 
 [[main]]
   name = "공지사항"
-  url = "/blog/"
+  url = "blog/"
   weight = 10
 
 [[main]]
   name = "행사안내"
-  url = "/docs/general/map/"
+  url = "docs/general/map/"
   weight = 20
 
 [[main]]
   name = "강의"
-  url = "/docs/lecture/lec_intro/"
+  url = "docs/lecture/lec_intro/"
   weight = 30
 
 [[main]]
   name = "경진대회"
-  url = "/docs/competition/regulation/"
+  url = "docs/competition/regulation/"
   weight = 40
 
 
 [[main]]
   name = "사진"
-  url = "/blog/사진/"
+  url = "blog/사진/"
   weight = 45
 
 
 [[main]]
   name = "수상"
-  url = "/blog/수상/"
+  url = "blog/수상/"
   weight = 46
 
 
 [[main]]
   name = "관련사이트"
-  url = "/sites/"
+  url = "sites/"
   weight = 50
 
 [[main]]
   name = "문의"
-  url = "/contact/"
+  url = "contact/"
   weight = 60
 
 [[social]]
@@ -81,5 +81,5 @@
 
 [[footer]]
   name = "개인정보 처리방침"
-  url = "/privacy-policy/"
+  url = "privacy-policy/"
   weight = 10
