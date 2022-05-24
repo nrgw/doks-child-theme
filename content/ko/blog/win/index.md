@@ -15,7 +15,7 @@ contributors: ["박찬"]
   * 박재우 (울산과학기술원)
   * 성광언 (울산과학기술원)
 
-<img src='\blog\사진\images\P1030796_batch.jpg'>
+<img src='..\photo\images\P1030796_batch.jpg'>
 
 
 ## 준우승
@@ -23,4 +23,4 @@ contributors: ["박찬"]
   * 구현모 (서울시립대학교)
   * 주영 (서울시립대학교)
 
-<img src='\blog\사진\images\P1030792_batch.jpg'>
+<img src='..\photo\images\P1030792_batch.jpg'>
