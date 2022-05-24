@@ -23,4 +23,4 @@ contributors: ["박찬"]
   * 구현모 (서울시립대학교)
   * 주영 (서울시립대학교)
 
-<img src='..\photo\images\P1030792_batch.jpg'>
+<img src='..\사진\images\P1030792_batch.jpg'>
