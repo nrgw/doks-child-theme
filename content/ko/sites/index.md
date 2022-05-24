@@ -17,7 +17,7 @@ images: []
 
 
 ## 지난 학교
-* [2021 Summer School on Numerical Relativity and Gravitational Waves](https://2021.school.gw.nr.re.kr/)
+* [2021 Summer School on Numerical Relativity and Gravitational Waves](https://school.gw.nr.re.kr/2021/summer/)
 * [2019 APCTP - NIMS - KISTI - UNIST - KASI Summer School on Numerical Relativity and Gravitational Waves](http://45.120.69.181/plan.php/GWNRSS2019)
 * [2018 APCTP - NIMS - KISTI - KASI Summer School on Numerical Relativity and Gravitational Waves](http://45.120.69.181/plan.php/GWNRSS2018)
 * [2017 Summer School on Numerical Relativity and Gravitational Waves](http://45.120.69.181/plan.php/NRGWSS2017)
