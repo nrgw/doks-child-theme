@@ -13,7 +13,7 @@ weight: 21
 toc: false
 ---
 
-* AWS EC2 사용방법 및 실습: [강의 자료](/docs/competition/ec2)
+* AWS EC2 사용방법 및 실습: [강의 자료](../../competition/ec2)
 * 계산천체물리 강의 1: [강의 슬라이드](/docs/lecture/materials/gwda-problem-ymkim.pdf)
 * 계산천체물리 강의 2: [강의 슬라이드](/docs/lecture/materials/cca-problem.pdf)
 * 중력파 데이터 분석: [강의 슬라이드](/docs/lecture/materials/gw_pe_2022NR_Winter_School_v2.pdf)
